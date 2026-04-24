@@ -1,10 +1,10 @@
-# 🌳 Decision Trees & Random Forests
+#  Decision Trees & Random Forests
 
 A hands-on machine learning lab exploring tree-based classification models — from single Decision Trees to powerful ensemble methods.
 
 ---
 
-## 📌 About This Lab
+##  About This Lab
 
 **Course:** Applied Machine Learning  
 **Week:** 5 | **Lab:** 3 | **Session:** 23  
@@ -13,7 +13,7 @@ A hands-on machine learning lab exploring tree-based classification models — f
 
 ---
 
-## 📂 Files in This Repo
+##  Files in This Repo
 
 | File | Description |
 |------|-------------|
@@ -22,7 +22,7 @@ A hands-on machine learning lab exploring tree-based classification models — f
 
 ---
 
-## 🎯 What This Lab Covers
+##  What This Lab Covers
 
 | Part | Topic |
 |------|-------|
@@ -35,18 +35,18 @@ A hands-on machine learning lab exploring tree-based classification models — f
 
 ---
 
-## 🧠 Concepts Learned
+##  Concepts Learned
 
-- ✅ How Decision Trees split data using **Gini Impurity**
-- ✅ Why deep trees **overfit** and how to control it with `max_depth`
-- ✅ How **Random Forests** reduce overfitting using Bootstrap Sampling + Voting
-- ✅ How to rank features using **Feature Importance**
-- ✅ How to find best settings using **GridSearchCV**
-- ✅ Difference between **Bagging** (Random Forest) vs **Boosting** (Gradient Boost / XGBoost)
+-  How Decision Trees split data using **Gini Impurity**
+-  Why deep trees **overfit** and how to control it with `max_depth`
+-  How **Random Forests** reduce overfitting using Bootstrap Sampling + Voting
+-  How to rank features using **Feature Importance**
+-  How to find best settings using **GridSearchCV**
+-  Difference between **Bagging** (Random Forest) vs **Boosting** (Gradient Boost / XGBoost)
 
 ---
 
-## 📊 Models Compared
+##  Models Compared
 
 | Model | Training Accuracy | Test Accuracy |
 |-------|:-----------------:|:-------------:|
@@ -59,7 +59,7 @@ A hands-on machine learning lab exploring tree-based classification models — f
 
 ---
 
-## 🛠️ Libraries Used
+##  Libraries Used
 
 ```python
 import numpy as np
@@ -75,7 +75,7 @@ from xgboost import XGBClassifier  # optional
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 1. Clone this repo:
 ```bash
@@ -96,7 +96,7 @@ jupyter notebook Week5_Lab3_DecisionTrees_RandomForests.ipynb
 
 ---
 
-## 💡 Key Takeaway
+##  Key Takeaway
 
 > Using only the **Top 5 most important features** (out of 13) gave nearly the same accuracy as using all features — proving that simpler models can be just as powerful!
 
